@@ -1,8 +1,8 @@
-package com.company;
+package com.company.abstraktna;
 
 public abstract class AbstractKlasa {
 
-    protected double broj=10;
+    public double broj=10;
 
     protected abstract double puta();
 

@@ -1,8 +1,11 @@
 package com.company;
 
-public class Klasa extends AbstractKlasa implements Interfejs  {
+import com.company.abstraktna.AbstractKlasa;
+import com.company.intefejs.Interfejs;
 
-protected int drugi_broj=20;
+public class Klasa extends AbstractKlasa implements Interfejs {
+
+
     public static String ime="ana";
     @Override
     protected double puta() {
