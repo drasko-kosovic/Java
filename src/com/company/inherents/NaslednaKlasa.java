@@ -2,12 +2,29 @@ package com.company.inherents;
 
 public class NaslednaKlasa extends OsnovnaKlasa{
 
+    private String adresa;
 
+    public NaslednaKlasa() {
 
-
-    public static void main(String[]  args){
-        OsnovnaKlasa osnovna=new OsnovnaKlasa("luka");
-        osnovna.setBroj(10);
-        System.out.println(osnovna.getBroj());
     }
+
+    public NaslednaKlasa(String ime, String adresa) {
+        super(ime);
+        this.adresa = adresa;
+    }
+
+    public String getAdresa() {
+        return adresa;
+    }
+
+    public void setAdresa(String adresa) {
+        this.adresa = adresa;
+    }
+
+    public String mojaAdresa(){
+        return this.adresa;
+    }
+
+
+
 }
