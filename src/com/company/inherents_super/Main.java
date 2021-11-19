@@ -13,7 +13,7 @@ public class Main {
         nasledna.setAdresa("trg");
         System.out.println(nasledna.mojaAdresa());
         System.out.println(povratni.probaMoja(2,50));
-
+        StaticKlasa.staticna();
     }
     }
 
