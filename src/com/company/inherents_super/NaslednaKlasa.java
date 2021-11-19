@@ -1,4 +1,4 @@
-package com.company.inherents;
+package com.company.inherents_super;
 
 public class NaslednaKlasa extends OsnovnaKlasa{
 

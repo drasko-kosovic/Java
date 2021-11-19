@@ -1,4 +1,4 @@
-package com.company.inherents;
+package com.company.inherents_super;
 
 public class OsnovnaKlasa {
 
@@ -7,6 +7,7 @@ public class OsnovnaKlasa {
 
     public void puta(){
         System.out.println(this.broj*10);
+
     }
 
     public String getIme() {

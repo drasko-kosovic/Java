@@ -1,4 +1,4 @@
-package com.company.colekcija;
+package com.company.kolekcija;
 
 public class Main {
 
