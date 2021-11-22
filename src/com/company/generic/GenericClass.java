@@ -18,23 +18,29 @@ public class GenericClass {
 //    }
 
     public void GenerikaMetoda() {
-        ArrayList<String> naziv = new ArrayList<>();
-        naziv.add("Luka");
-        naziv.add("Andrija");
-        naziv.add(0,"Petar");
+//        ArrayList<String> naziv = new ArrayList<>();
+//        naziv.add("Luka");
+//        naziv.add("Andrija");
+//        naziv.add(0, "Petar");
+//        for (String x : naziv) {
+//            System.out.println(naziv);
+//            System.out.println(naziv.contains("Luka"));
+//        }
 
+        ArrayList<Student> student = new ArrayList<>();
 
-
-        for (String x : naziv) {
-            System.out.println(naziv);
-            System.out.println(naziv.contains("Luka"));
-        }
-
+        for(Student x:student)
+            System.out.println(x);
+//
 
     }
 
+
+
+
     public static void main(String[] args) {
         GenericClass generic = new GenericClass();
-        generic.GenerikaMetoda();
+//        generic.GenerikaMetoda();
+
     }
 }
