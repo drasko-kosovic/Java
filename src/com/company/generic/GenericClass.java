@@ -1,5 +1,7 @@
 package com.company.generic;
 
+import udemu.Player;
+
 import java.util.ArrayList;
 
 public class GenericClass {
@@ -26,12 +28,13 @@ public class GenericClass {
 //            System.out.println(naziv);
 //            System.out.println(naziv.contains("Luka"));
 //        }
-
+        Student marko=new Student("Kosta");
         ArrayList<Student> student = new ArrayList<>();
-
+       student.add(0,
+               marko);
         for(Student x:student)
             System.out.println(x);
-//
+
 
     }
 
@@ -40,7 +43,7 @@ public class GenericClass {
 
     public static void main(String[] args) {
         GenericClass generic = new GenericClass();
-//        generic.GenerikaMetoda();
+        generic.GenerikaMetoda();
 
     }
 }
