@@ -7,6 +7,7 @@ public class Main {
         student.setImeStudenta("Kosta");
         System.out.println("To je  " + student.getImeStudenta());
         student.Vrati();
+        student.ObicnaMetodaApstraktneKlase();
 
         StudentMedicine<StudentMedicine> studentMedicine = new StudentMedicine<>();
         studentMedicine.setSpecijalizacija("Kardiolog");

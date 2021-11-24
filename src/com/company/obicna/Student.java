@@ -1,6 +1,6 @@
 package com.company.obicna;
 
-public class Student <S> extends AbstraktnaKlasa{
+public class Student <S> extends AbstraktnaKlasa implements InterfajsKlassa{
 
     String imeStudenta;
 
@@ -26,5 +26,11 @@ public class Student <S> extends AbstraktnaKlasa{
     @Override
     public void AbstraktnaMetoda() {
         System.out.println("Implementacija abstraktne klase");
+    }
+
+
+    @Override
+    public void InterfaceMetoda() {
+        System.out.println("Ovo je interface Metoda");
     }
 }
