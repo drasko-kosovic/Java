@@ -1,6 +1,6 @@
 package com.company.obicna;
 
-public class Student<S> {
+public class Student <S>{
 
     String imeStudenta;
 
@@ -17,5 +17,9 @@ public class Student<S> {
 
     public void setImeStudenta(String imeStudenta) {
         this.imeStudenta = imeStudenta;
+    }
+
+    public void Vrati(){
+        System.out.println("To je student sa imenom    "+ this.imeStudenta);
     }
 }
