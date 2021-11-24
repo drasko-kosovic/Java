@@ -1,6 +1,6 @@
 package com.company.obicna;
 
-public class Student <S>{
+public class Student <S> extends AbstraktnaKlasa{
 
     String imeStudenta;
 
@@ -21,5 +21,10 @@ public class Student <S>{
 
     public void Vrati(){
         System.out.println("To je student sa imenom    "+ this.imeStudenta);
+    }
+
+    @Override
+    public void AbstraktnaMetoda() {
+        System.out.println("Implementacija abstraktne klase");
     }
 }
