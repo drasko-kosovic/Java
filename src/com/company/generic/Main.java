@@ -1,10 +1,8 @@
 package com.company.generic;
 
-import udemu.Player;
-
 import java.util.ArrayList;
 
-public class GenericClass {
+public class Main {
 
 //    public String ime;
 //
@@ -42,7 +40,7 @@ public class GenericClass {
 
 
     public static void main(String[] args) {
-        GenericClass generic = new GenericClass();
+        Main generic = new Main();
         generic.GenerikaMetoda();
 
     }
