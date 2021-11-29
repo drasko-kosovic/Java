@@ -1,4 +1,4 @@
-package com.company.LAMBDA.predicate1;
+package com.company.LAMBDA.lambda_obicna;
 
 @FunctionalInterface
 //Lambda bez argumenta
