@@ -22,7 +22,9 @@ public class Demo3 {
 //        }
 
         for(Integer x:a){
-            if(p1.test(x)&&p2.test(x))
+            //Moze i ovako
+            if(p1.and(p2).test(x))
+//            if(p1.test(x)&&p2.test(x))
                 System.out.println(x);
         }
 
