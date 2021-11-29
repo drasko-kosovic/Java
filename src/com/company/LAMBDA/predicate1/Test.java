@@ -6,6 +6,7 @@ interface Cab{
     public void bookCab();
 }
 //Lambda sa argumentrima
+@FunctionalInterface
 interface CabArgumenat{
     public void bookCab(String pocetak,String kraj);
 }
