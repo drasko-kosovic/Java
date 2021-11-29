@@ -51,6 +51,6 @@ public class Demo2 {
     //Primjer 2
 
     ArrayList <Zaposleni> al=new ArrayList<>();
-    al.add
+
 
 }
