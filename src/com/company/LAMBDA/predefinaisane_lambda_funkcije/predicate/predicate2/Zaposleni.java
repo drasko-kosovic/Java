@@ -1,6 +1,6 @@
 package com.company.LAMBDA.predefinaisane_lambda_funkcije.predicate.predicate2;
 
-class Zaposleni {
+public class Zaposleni {
     String z_ime;
     int z_staz;
     int z_plata;

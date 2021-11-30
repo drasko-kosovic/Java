@@ -8,5 +8,6 @@ public class Main {
       Tastatura tastatura= new Tastatura("plava");
       PC pc= new PC(monitor,tastatura,"Assus",454);
         System.out.println(pc.getMarka_pc());
+        System.out.println(pc.getTheMonitor().getBroj_piksela());
     }
 }

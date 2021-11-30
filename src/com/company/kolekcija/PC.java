@@ -9,7 +9,7 @@ public class PC {
     private String marka_pc;
     private int memorija;
 
-    public boolean ugasen_pc(){
+    public boolean ugasen_pc() {
         return true;
     }
 
@@ -53,5 +53,15 @@ public class PC {
     }
 
     public PC() {
+    }
+
+    @Override
+    public String toString() {
+        return "PC{" +
+                "theMonitor=" + theMonitor +
+                ", theTastatura=" + theTastatura +
+                ", marka_pc='" + marka_pc + '\'' +
+                ", memorija=" + memorija +
+                '}';
     }
 }
