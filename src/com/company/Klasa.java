@@ -3,6 +3,8 @@ package com.company;
 import com.company.abstraktna.AbstractKlasa;
 import com.company.intefejs.Interfejs;
 
+import java.util.Locale;
+
 public class Klasa extends AbstractKlasa implements Interfejs {
 
 
@@ -18,5 +20,9 @@ public class Klasa extends AbstractKlasa implements Interfejs {
     }
     static void myMethod(int a, int b) {
         System.out.println(a*b);
+    }
+
+    public static String getIme() {
+        return ime;
     }
 }

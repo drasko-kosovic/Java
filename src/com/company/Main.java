@@ -1,5 +1,7 @@
 package com.company;
 
+import java.util.Locale;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -12,5 +14,8 @@ public class Main {
         System.out.println(klasa.manje());
         System.out.println(Klasa.ime);
         Klasa.myMethod(2,5);
+        System.out.println(Klasa.getIme().toUpperCase());
+        System.out.println(Klasa.getIme().equalsIgnoreCase("ana"));
+
     }
 }
