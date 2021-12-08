@@ -1,7 +1,7 @@
 package com.company.generic;
 
 public class Student {
-    String imeStudenta="Luka";
+    String imeStudenta;
 
     public Student(String imeStudenta) {
         this.imeStudenta = imeStudenta;
