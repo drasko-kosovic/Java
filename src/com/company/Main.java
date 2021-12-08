@@ -14,8 +14,9 @@ public class Main {
         System.out.println(klasa.manje());
         System.out.println(Klasa.ime);
         Klasa.myMethod(2,5);
-        System.out.println(Klasa.getIme().toUpperCase());
+//        System.out.println(Klasa.getIme().toUpperCase());
         System.out.println(Klasa.getIme().equalsIgnoreCase("ana"));
+        System.out.println("To je "+ Klasa.ime.toUpperCase());
 
     }
 }
