@@ -3,8 +3,6 @@ package com.company;
 import com.company.abstraktna.AbstractKlasa;
 import com.company.intefejs.Interfejs;
 
-import java.util.Locale;
-
 public class Klasa extends AbstractKlasa implements Interfejs {
 
 
@@ -22,7 +20,20 @@ public class Klasa extends AbstractKlasa implements Interfejs {
         System.out.println(a*b);
     }
 
+
+   static void varijabilniParametar(int ...X){
+
+        for(int i:X)
+       System.out.println(i);
+    }
+
+
+
     public static String getIme() {
         return ime;
+    }
+
+    public static void main(String[] args) {
+        varijabilniParametar(1,3,5);
     }
 }

@@ -11,4 +11,6 @@ public abstract class AbstractKlasa {
     public double sabiranje(){
         return broj+300;
     }
+
+
 }
