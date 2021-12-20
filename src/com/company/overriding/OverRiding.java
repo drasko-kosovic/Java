@@ -2,7 +2,7 @@ package com.company.overriding;
 
 public class OverRiding {
 
-    public  class Tv{
+    public static   class Tv{
 
        public void gasiTv()
        {
